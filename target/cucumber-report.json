@@ -1,0 +1,230 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9694253375,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Store CRUD API",
+        "description": "",
+        "id": "store-api-testing;store-crud-api",
+        "after": [
+          {
+            "result": {
+              "duration": 740118250,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2836257084,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Create Store",
+            "match": {
+              "location": "StoreApiTanhaSteps.create_Store()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 199724375,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Get Store",
+            "match": {
+              "location": "StoreApiTanhaSteps.get_Store()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Store API Testing",
+    "description": "",
+    "id": "store-api-testing",
+    "keyword": "Feature",
+    "uri": "APIStoreTanha.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      },
+      {
+        "line": 1,
+        "name": "@api"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6942653541,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "DollarTree Toys Mousehover",
+        "description": "",
+        "id": "dollartree-toys-and-office-mousehover;dollartree-toys-mousehover",
+        "after": [
+          {
+            "result": {
+              "duration": 1028317416,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 51944042,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open DollarTree Homepage",
+            "match": {
+              "location": "HomePageSteps.open_DollarTree_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 64085872292,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Mouse Hover to Toys \u0026 Crafts",
+            "match": {
+              "location": "HomePageSteps.mouse_Hover_to_Toys_Crafts()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37539712959,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on See all toys",
+            "match": {
+              "location": "HomePageSteps.click_on_See_all_toys()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7369443417,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "DollarTree Home and Office Mousehover",
+        "description": "",
+        "id": "dollartree-toys-and-office-mousehover;dollartree-home-and-office-mousehover",
+        "after": [
+          {
+            "result": {
+              "duration": 735115917,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterActions(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10579791,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Open DollarTree Homepage",
+            "match": {
+              "location": "HomePageSteps.open_DollarTree_Homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 65746903709,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Mouse Hover to Home \u0026 Office",
+            "match": {
+              "location": "HomePageSteps.mouse_Hover_to_Home_Office()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49765356750,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on HOUSEHOLD \u0026 PET SUPPLIES",
+            "match": {
+              "location": "HomePageSteps.click_on_HOUSEHOLD_PET_SUPPLIES()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "DollarTree Toys and Office Mousehover",
+    "description": "",
+    "id": "dollartree-toys-and-office-mousehover",
+    "keyword": "Feature",
+    "uri": "DollarTreeTanha.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]
